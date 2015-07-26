@@ -45,10 +45,10 @@ cpan App::cpanminus
 
 # We use cpanm here because cpan with my settings
 # seems to disagree with these modules.
-cpanm Term::ReadLine::Perl
-cpanm Term::ReadLine
-cpanm Term::ReadKey
-cpanm Term::ReadLine::Gnu
+cpan Term::ReadLine::Perl
+cpan Term::ReadLine
+cpan Term::ReadKey
+cpan Term::ReadLine::Gnu
 
 export NONINTERACTIVE_TESTING=1
 
