@@ -38,6 +38,8 @@ _debug "Validating smoking modules exist"
 cpan YAML
 cpan Task::CPAN::Reporter
 cpan Test::Reporter::Transport::Metabase
+cpan Crypt::SSLeay
+cpan IO::Socket::SSL
 cpan CPAN::Reporter::Smoker
 cpan App::cpanminus
 
