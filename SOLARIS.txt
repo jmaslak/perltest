@@ -1,0 +1,17 @@
+You must install a newer version of Screen.  Get it here:
+
+  http://ftp.gnu.org/gnu/screen/screen-4.2.1.tar.gz
+
+This must appear in your path before the system version.
+
+export CFLAGS="$CFLAGS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__" 
+./configure
+./gmake
+
+
+FWIW, you can't build the current tree.  But some hints to try:
+
+To build current git tree, you need autoconf package (pkg install autoconf),
+automake-110 . To search for pkgs, you can "pkg search /usr/local/foo*"
+gcc-48, system/header is also useful.
+

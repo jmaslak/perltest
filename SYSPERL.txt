@@ -1,0 +1,3 @@
+To use the system perl, you need to build ~/sysperl to be a local::lib tree.
+Also put a symlink from /usr/bin/perl (or wherever your sysperl is) to
+~/sysperl/bin
