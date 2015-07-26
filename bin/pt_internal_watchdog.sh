@@ -45,7 +45,8 @@ while true ; do
     for SCREEN in ${HUNG[@]} ; do
     
         # Extract the title from screen sessions that are hung
-        log=$( egrep "^$SCREEN\s" <$TMP )
+        SP='[^0-9a-zA-Z_-][^0-9a-zA-Z_-]*'
+        log=$( egrep "^${SCREEN}${SP}" <$TMP )
 
         date=$( date )
         echo "$date [WARN ] HANGDETECT $log"
