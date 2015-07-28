@@ -18,7 +18,8 @@ PERLTEST_DIR="$( cd -- "$(dirname "$0")"/.. && pwd)"
 . $PERLTEST_DIR/functions/pt.sh
 
 # The command to do the actual "smoking" inside Screen
-INTERNALCMD=pt_internal_sysperl_test.sh
+INTERNALCMDSYSTEM=pt_internal_sysperl_test.sh
+INTERNALCMD=pt_internal_one_cpantest.sh
 
 #
 # Main Program
@@ -38,7 +39,7 @@ if [ "$VER" != "sysperl" ] ; then
         "$PERLTEST_DIR/bin/$INTERNALCMD" "$@"
 else
     _screen_start "$VER" \
-        "$PERLTEST_DIR/bin/$INTERNALCMD" "$@"
+        "$PERLTEST_DIR/bin/$INTERNALCMDSYSTEM" "$@"
 fi
 
 _debug "Started screen for smoking $VER"
