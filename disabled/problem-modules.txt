@@ -21,4 +21,3 @@ AnyEvent-FDpasser-0.3.0.    AnyEvent::FDpasser          CYGWIN_HANG OK on Linux
 File-Lock-Multi-1.02.       File::Lock::Multi           HANGS       Does not install
 Glib-1.307.                 Glib                        CYGWIN_HANG OK on Linux
 Glib-1.312.                 Glib                        CYGWIN_HANG OK on Linux
-HTTP-Proxy-0.304.           HTTP::Proxy                 CYGWIN_HANG OK on Linux
