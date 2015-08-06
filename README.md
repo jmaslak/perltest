@@ -23,3 +23,8 @@ screen sessions running the testing.
 
 Use pt_kill_all.sh to stop things.
 
+Settings needed in CPAN:
+
+ o conf halt_on_failure 1
+ o conf test_report 1
+

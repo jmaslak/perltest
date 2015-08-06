@@ -30,6 +30,15 @@ VER=`perl -e 'print $^V'`
 _debug "Using Perl Version: $VER"
 
 #
+# Make sure we're up to date
+#
+CDIR="$PWD"
+cd "$PERLTEST_DIR/disabled"
+git pull
+./disabled.pl
+cd "$CDIR"
+
+#
 # Make sure we have some key modules
 #
 # This is done interactively, just in case.

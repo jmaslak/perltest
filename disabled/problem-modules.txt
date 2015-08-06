@@ -1,0 +1,24 @@
+#
+# Reason codes:
+#   PROMPTS -> Requires input but installs okay
+#   APACHE  -> Has dependency on Apache code
+#   HANGS   -> Hangs during testing
+#   EXTDEP  -> Has external dependencies
+#   CYGWIN_... -> Prefix identifies bad behavior that only applies to CYGWIN
+#
+# Short Name                # Module Identifier         # Reason    # Notes
+Net-Ifconfig-Wrapper-0.11.  Net::Ifconfig::Wrapperi     PROMPTS     Manual Install: OK
+IO-All-0.86.                IO::All                     CYGWIN_HANG OK on Linux
+App-SFDC-                   App::SFDC                   APACHE      Does not install
+mod-perl-                   mod_perl2                   APACHE      Does not install
+Bio-SamTools-               Bio::DB::Bam                EXTDEP      Needs "bam.h" and "libbam.a"
+Test-WWW-Simple-            Test::WWW::Simple           CYGWIN_HANG OK on Linux
+Math-TrulyRandom-1.0.       Math::TrulyRandom           HANGS       Does not install
+PersistentPerl-2.22.        PersistentPerl              PROMPTS     Manual Install: OK but fails
+PGP-Sign-0.20.              PGP::Sign                   PROMPTS     Manual Install: OK
+IPC-DirQueue-1.00.          IPC::DirQueue               HANG        Does not install
+AnyEvent-FDpasser-0.3.0.    AnyEvent::FDpasser          CYGWIN_HANG OK on Linux
+File-Lock-Multi-1.02.       File::Lock::Multi           HANGS       Does not install
+Glib-1.307.                 Glib                        CYGWIN_HANG OK on Linux
+Glib-1.312.                 Glib                        CYGWIN_HANG OK on Linux
+HTTP-Proxy-0.304.           HTTP::Proxy                 CYGWIN_HANG OK on Linux
