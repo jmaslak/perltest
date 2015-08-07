@@ -29,3 +29,4 @@ Apache-GTopLimit-1.02.      Apache::GTopLimit           APACHE      Does not ins
 DBIx-SQLEngine-0.006.       DBIx::SQLEngine             PROMPTS     Manual Install: OK but fails
 Net-Goofey-1.4.             Net::Goofey                 PROMPTS     Manual Install: OK but fails
 Apache-File-Resumable-1.1.1.1. Apache::File::Resumable  APACHE      Does not install
+IO-EventMux-2.02.           IO::EventMux                HANGS       Does not install
