@@ -33,3 +33,4 @@ IO-EventMux-2.02.           IO::EventMux                HANGS       Does not ins
 RPM4-0.33.                  RPM4                        HANGS       Does not install
 Devel-PreProcessor-2003.1128. Devel::PreProcessor       HANGS       Does not install
 URI-ParseSearchString-More-3.51. URI::ParseSearchString::More CYGWIN_HANG OK on Linux
+XAO-MySQL-1.0.              XAO::DO::FS::Glue::MySQL    PROMPTS     Manual Install: OK
