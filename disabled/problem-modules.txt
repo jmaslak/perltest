@@ -28,3 +28,4 @@ Cindy-Apache2-0.09.         Cindy::Apache2              APACHE      Does not ins
 Apache-GTopLimit-1.02.      Apache::GTopLimit           APACHE      Does not install
 DBIx-SQLEngine-0.006.       DBIx::SQLEngine             PROMPTS     Manual Install: OK but fails
 Net-Goofey-1.4.             Net::Goofey                 PROMPTS     Manual Install: OK but fails
+Apache-File-Resumable-1.1.1.1. Apache::File::Resumable  APACHE      Does not install
