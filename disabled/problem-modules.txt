@@ -31,3 +31,5 @@ Net-Goofey-1.4.             Net::Goofey                 PROMPTS     Manual Insta
 Apache-File-Resumable-1.1.1.1. Apache::File::Resumable  APACHE      Does not install
 IO-EventMux-2.02.           IO::EventMux                HANGS       Does not install
 RPM4-0.33.                  RPM4                        HANGS       Does not install
+Devel-PreProcessor-2003.1128. Devel::PreProcessor       HANGS       Does not install
+URI-ParseSearchString-More-3.51. URI::ParseSearchString::More CYGWIN_HANG OK on Linux
