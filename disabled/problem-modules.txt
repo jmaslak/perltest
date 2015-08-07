@@ -11,6 +11,7 @@ Net-Ifconfig-Wrapper-0.11.  Net::Ifconfig::Wrapperi     PROMPTS     Manual Insta
 IO-All-0.86.                IO::All                     CYGWIN_HANG OK on Linux
 App-SFDC-                   App::SFDC                   APACHE      Does not install
 mod-perl-                   mod_perl2                   APACHE      Does not install
+mod_perl-                   mod_perl                    APACHE      Does not install
 Bio-SamTools-               Bio::DB::Bam                EXTDEP      Needs bam.h and libbam.a
 Test-WWW-Simple-            Test::WWW::Simple           CYGWIN_HANG OK on Linux
 Math-TrulyRandom-1.0.       Math::TrulyRandom           HANGS       Does not install
@@ -23,3 +24,5 @@ Glib-1.307.                 Glib                        CYGWIN_HANG OK on Linux
 Glib-1.312.                 Glib                        CYGWIN_HANG OK on Linux
 WWW-LEO-0.01.               WWW::LEO                    HANGS       Does not install
 Test-SharedFork-0.33.       Test::SharedFork            CYGWIN_HANG OK in Linux
+Cindy-Apache2-0.09.         Cindy::Apache2              APACHE      Does not install
+Apache-GTopLimit-1.02.      Apache::GTopLimit           APACHE      Does not install
