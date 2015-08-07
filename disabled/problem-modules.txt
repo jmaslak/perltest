@@ -26,3 +26,5 @@ WWW-LEO-0.01.               WWW::LEO                    HANGS       Does not ins
 Test-SharedFork-0.33.       Test::SharedFork            CYGWIN_HANG OK in Linux
 Cindy-Apache2-0.09.         Cindy::Apache2              APACHE      Does not install
 Apache-GTopLimit-1.02.      Apache::GTopLimit           APACHE      Does not install
+DBIx-SQLEngine-0.006.       DBIx::SQLEngine             PROMPTS     Manual Install: OK but fails
+Net-Goofey-1.4.             Net::Goofey                 PROMPTS     Manual Install: OK but fails
