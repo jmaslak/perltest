@@ -37,3 +37,4 @@ XAO-MySQL-1.0.              XAO::DO::FS::Glue::MySQL    PROMPTS     Manual Insta
 DbFramework-1.10.           DbFramework::Attribute      PROMPTS     Manual Install: OK but fails
 ddb-1.3.1.                  ddb                         CYGWIN_HANG OK in Linux
 SAP-Rfc-1.56.               SAP::Rfc                    PROMPTS     Manual Install: OK but fails
+File-BasicFlock-98.1202.    File::BasicFlock            CYGWIN_HANG OK in Linux
