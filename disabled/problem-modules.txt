@@ -56,3 +56,4 @@ LedgerSMB-API-0.04a.        LedgerSMB::API              PROMPTS     Loops on inp
 Winamp-Control-0.2.1.       Winamp::Control             PROMPTS     Manual Install: OK
 POE-Component-Server-HTTP-KeepAlive-0.0307. POE::Component::Server::HTTP::KeepAlive HANGS Does not install
 IO-File-Log-1.01.           IO::File::Log               HANG        Does not install
+WAIT-1.800.                 WAIT                        PROMPTS     Loops on input
