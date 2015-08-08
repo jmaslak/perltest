@@ -58,3 +58,4 @@ POE-Component-Server-HTTP-KeepAlive-0.0307. POE::Component::Server::HTTP::KeepAl
 IO-File-Log-1.01.           IO::File::Log               HANG        Does not install
 WAIT-1.800.                 WAIT                        PROMPTS     Loops on input
 Senna-0.51.                 Senna::Values               PROMPTS     Manual Install: OK but fails
+Furl-3.08.                  Furl                        CYGWIN_HANG Installs OK on Linux
