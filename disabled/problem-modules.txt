@@ -61,3 +61,6 @@ WAIT-1.800.                 WAIT                        PROMPTS     Loops on inp
 Senna-0.51.                 Senna::Values               PROMPTS     Manual Install: OK but fails
 Furl-3.08.                  Furl                        CYGWIN_HANG Installs OK on Linux
 Term-Screen-Uni-0.04.       Term::Screen::Uni           PROMPTS     Manual Install: OK
+Device-Onkyo-1.143640.      Device::Onkyo               CYGWIN_HANG Installs OK on Linux
+Net-NBsocket-0.24.          Net::NBsocket               CYGWIN_HANG Installs OK on Linux
+Image-Thumbnail-0.66.       Image::Thumbnail            CYGWIN_HANG Installs OK on Linux
