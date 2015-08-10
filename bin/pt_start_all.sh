@@ -24,8 +24,14 @@ PATH="$PERLTEST_DIR/bin:$PATH"
 # Main Program
 #
 
+NICE=nice
+if [ -x /usr/bin/ionice ] ; then
+    _debug "Using ionice"
+    NICE="$nice ionice -c idle"
+fi
+
 FQDN="$(hostname)"
-$PERLTEST_DIR/config/$FQDN
+$NICE $PERLTEST_DIR/config/$FQDN
 
 # $PERLTEST_DIR/bin/pt_watchdog.sh
 
