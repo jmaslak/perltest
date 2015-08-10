@@ -65,3 +65,4 @@ Device-Onkyo-1.143640.      Device::Onkyo               CYGWIN_HANG Installs OK 
 Net-NBsocket-0.24.          Net::NBsocket               CYGWIN_HANG Installs OK on Linux
 Image-Thumbnail-0.66.       Image::Thumbnail            CYGWIN_HANG Installs OK on Linux
 RAS-PortMaster-1.16.        RAS::Portmaster             PROMPTS     Manual Install: OK
+IPC-Transit-1.133280.       IPC::Transit                CYGWIN_HANG Installs OK on Linux
