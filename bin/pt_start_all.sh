@@ -27,7 +27,7 @@ PATH="$PERLTEST_DIR/bin:$PATH"
 NICE=nice
 if [ -x /usr/bin/ionice ] ; then
     _debug "Using ionice"
-    NICE="$nice ionice -c idle"
+    NICE="$NICE ionice -c idle"
 fi
 
 FQDN="$(hostname)"
