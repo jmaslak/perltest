@@ -67,3 +67,4 @@ Image-Thumbnail-0.66.       Image::Thumbnail            CYGWIN_HANG Installs OK 
 RAS-PortMaster-1.16.        RAS::Portmaster             PROMPTS     Manual Install: OK
 IPC-Transit-1.133280.       IPC::Transit                CYGWIN_HANG Installs OK on Linux
 Inline-Octave-0.31.         Inline::Octave              PROMPTS     Looks for GNU Octave
+DBIx-Password-1.9.          DBIx::Password              PROMPTS     Asks for virtual user
